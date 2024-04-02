@@ -10,7 +10,111 @@ body{
     background-size: cover;
     background-position: center;
     width: 100%;
+    height: 450px;
 }
 .header-section{
     text-align: center;
+    padding-top: 3px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(249, 249, 249);
+}
+.start{
+    padding: 3px;
+    color: rgb(254, 254, 253);
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    background-color: orange;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.today{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.middle{
+    text-align: center;
+}
+.donate-taka{
+    display: flex;
+    margin-left: 350px;
+    gap: 1%;
+}
+.money-s{
+    background-color: rgb(241, 235, 227);
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 70px;
+    height: 50px;
+    
+}
+.money-a{
+    background-color: rgb(236, 181, 181);
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 70px;
+    height: 50px;
+    color: red;
+    border: 2px solid rgb(215, 100, 33);
+}
+.money-t{
+    background-color: rgb(241, 235, 227);
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 70px;
+    height: 50px;
+}
+.money-h{
+    background-color: rgb(241, 235, 227);
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 70px;
+    height: 50px;
+}
+.money-i{
+    background-color: rgb(241, 235, 227);
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 70px;
+    height: 50px;
+}
+.blind{
+    text-align: center;
+    color: rgb(207, 178, 144);
+    font-size: 13px;
+    margin-top: 3%;
+}
+hr{
+    width: 50%;
+    color:rgb(207, 178, 144);
+}
+.button-two{
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    background-color: orange;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 45%;
+
+}
+.plan{
+    margin-top: 12%;
+    font-size: 12px;
+}
+.need{
+    gap: 2%;
 }
